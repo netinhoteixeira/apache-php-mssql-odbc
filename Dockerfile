@@ -22,8 +22,8 @@ RUN apt-get -y autoremove && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN /usr/sbin/a2enmod rewrite
-RUN php5enmod mssql
-RUN php5enmod phalcon
+RUN phpenmod pdo_dblib
+RUN phpenmod phalcon
 
 # Edit 000-default.conf to change apache site settings.
 ADD 000-default.conf /etc/apache2/sites-available/
@@ -34,5 +34,7 @@ ADD 000-default.conf /etc/apache2/sites-available/
 
 EXPOSE 80
 #EXPOSE 443
+
+ADD phpinfo.php /var/www/
 
 CMD ["/usr/sbin/apache2ctl", "-D", "FOREGROUND"]
