@@ -1,5 +1,5 @@
 FROM ppoffice/mssql-odbc
-MAINTAINER PPOffice <ppoffice_2008@163.com>
+MAINTAINER Francisco Ernesto Teixeira <fco.ernesto@gmail.com>
 
 #RUN apt-get update && \
 #    apt-get -y install apache2 php5 php5-mssql && \
