@@ -1,5 +1,5 @@
 # netinhoteixeira/apache-php-phalcon-mssql-odbc
-Dockerfile of Apache & PHP Environment with Phalcon and Microsoft SQL Server ODBC Driver Support Built on Ubuntu Trusty
+Dockerfile of Apache & PHP 5.6 Environment with Phalcon and Microsoft SQL Server ODBC Driver Support Built on Ubuntu Trusty
 
 ```bash
 docker pull netinhoteixeira/apache-php-phalcon-mssql-odbc
