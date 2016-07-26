@@ -1,4 +1,4 @@
-# ppoffice/apache-php-mssql-odbc
+# netinhoteixeira/apache-php-phalcon-mssql-odbc
 Dockerfile of Apache & PHP Environment with Phalcon and Microsoft SQL Server ODBC Driver Support Built on Ubuntu Trusty
 
 ```bash
